@@ -1,0 +1,39 @@
+{
+  "name": "dovetail-web-engineer-coding-challenge",
+  "private": true,
+  "description": "A starter repo for the web-engineer challenge",
+  "version": "0.1.0",
+  "author": "Mike King <mike@dovetail.com.com>",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@svgr/webpack": "^8.0.1",
+    "gatsby": "^5.11.0",
+    "gatsby-plugin-svgr": "^3.0.0-beta.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

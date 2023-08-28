@@ -1,0 +1,14 @@
+  html {
+    box-sizing: border-box;
+  }
+  body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
+
+  h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+  }
