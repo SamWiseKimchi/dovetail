@@ -16,5 +16,6 @@ module.exports = {
         memo: true,
         svgo: true,
       },
-    }],
+    },
+  ],
 }

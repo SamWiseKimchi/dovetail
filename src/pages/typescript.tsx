@@ -10,4 +10,3 @@ const TypescriptPage: React.FC<PageProps> = () => (
 )
 
 export default TypescriptPage
-
