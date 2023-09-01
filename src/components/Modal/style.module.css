@@ -1,0 +1,29 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  position: absolute;
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: white;
+  max-width: 544px;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal {
+    margin: 146px 16px;
+    gap: 32px;
+  }
+}
